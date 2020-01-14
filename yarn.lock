@@ -85,6 +85,11 @@ form-data@^2.3.3:
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
+html-entities@^1.1.3:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.2.1.tgz#0df29351f0721163515dfb9e5543e5f6eed5162f"
+  integrity sha1-DfKTUfByEWNRXfueVUPl9u7VFi8=
+
 libsodium-wrappers@^0.7.6:
   version "0.7.6"
   resolved "https://registry.yarnpkg.com/libsodium-wrappers/-/libsodium-wrappers-0.7.6.tgz#baed4c16d4bf9610104875ad8a8e164d259d48fb"
@@ -97,6 +102,14 @@ libsodium@0.7.6:
   resolved "https://registry.yarnpkg.com/libsodium/-/libsodium-0.7.6.tgz#018b80c5728054817845fbffa554274441bda277"
   integrity sha512-hPb/04sEuLcTRdWDtd+xH3RXBihpmbPCsKW/Jtf4PsvdyKh+D6z2D2gvp/5BfoxseP+0FCOg66kE+0oGUE/loQ==
 
+m3u8stream@^0.6.3:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/m3u8stream/-/m3u8stream-0.6.4.tgz#c2cdeb8401d340cc476029e433177caa089a26e9"
+  integrity sha512-9WLF1VAtbVij03HWJKbVZ8L0orsoZiP53UljR5EwaDrozQFMsTGRDPe3PbzWV73He8a+j5H/hWZNoI2VkUSsiw==
+  dependencies:
+    miniget "^1.6.1"
+    sax "^1.2.4"
+
 mime-db@1.43.0:
   version "1.43.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.43.0.tgz#0a12e0502650e473d735535050e7c8f4eb4fae58"
@@ -108,6 +121,11 @@ mime-types@^2.1.12:
   integrity sha512-01paPWYgLrkqAyrlDorC1uDwl2p3qZT7yl806vW7DvDoxwXi46jsjFbg+WdwotBIk6/MbEhO/dh5aZ5sNj/dWQ==
   dependencies:
     mime-db "1.43.0"
+
+miniget@^1.6.0, miniget@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/miniget/-/miniget-1.6.1.tgz#f1ae08a34e06a2b1c3ace568384ea0def2fe5813"
+  integrity sha512-I5oBwZmcaOuJrjQn7lpS29HM+aAZDbzKbX5ouxVyhFYdg6fA6YKOTwOCgzZQwlHuMek3FlCxz6eNrd4pOXbwOA==
 
 nan@^2.14.0:
   version "2.14.0"
@@ -134,6 +152,11 @@ prism-media@^1.0.0:
   resolved "https://registry.yarnpkg.com/prism-media/-/prism-media-1.1.0.tgz#64fd9abf64719d627b99360bfbe1a81d3ac0c593"
   integrity sha512-W+oxjRyjtd7hw3pefNZuc7YEZ6VICORJvVNfCPs0+7CsJ43CqMjGAYGjPL3hQ82vw03EVra+CiX4zisqOBUUGw==
 
+sax@^1.1.3, sax@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+  integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
+
 setimmediate@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
@@ -155,6 +178,16 @@ ws@^7.2.0:
   version "7.2.1"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.2.1.tgz#03ed52423cd744084b2cf42ed197c8b65a936b8e"
   integrity sha512-sucePNSafamSKoOqoNfBd8V0StlkzJKL2ZAhGQinCfNQ+oacw+Pk7lcdAElecBF2VkLNZRiIb5Oi1Q5lVUVt2A==
+
+ytdl-core@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/ytdl-core/-/ytdl-core-1.0.6.tgz#ced230fcfc506d50203affa15ea53a7c438bebda"
+  integrity sha512-6+g8ZRxO4V7U4U8HiE3R2Or7MSOl5g8BIZ4Z6Wa/cGsNyqu5IStMJiR3I+HfI+4jGtSaHzAM2SrkVtIrjGcBNA==
+  dependencies:
+    html-entities "^1.1.3"
+    m3u8stream "^0.6.3"
+    miniget "^1.6.0"
+    sax "^1.1.3"
 
 zlib-sync@^0.1.6:
   version "0.1.6"
