@@ -1,0 +1,15 @@
+{
+  "name": "piernas_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "discord.js": "discordjs/discord.js",
+    "erlpack": "^0.1.3",
+    "libsodium-wrappers": "^0.7.6",
+    "opusscript": "^0.0.7",
+    "utf-8-validate": "^5.0.2",
+    "zlib-sync": "^0.1.6"
+  }
+}
